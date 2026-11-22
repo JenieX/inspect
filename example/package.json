@@ -1,0 +1,12 @@
+{
+  "$schema": "file:///D:/projects/json-schemas/package.json",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/tsx-example.ts",
+    "start-inspect": "set NODE_OPTIONS=--inspect-wait=127.0.0.1:2003 && node src/node-example.js",
+    "start-inspect-alt": "tsx --inspect-wait=127.0.0.1:2003 src/tsx-example.ts"
+  },
+  "dependencies": {
+    "@jeniex/inspect": "workspace:*"
+  }
+}

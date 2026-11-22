@@ -1,0 +1,37 @@
+{
+  "$schema": "file:///D:/projects/json-schemas/package.json",
+  "name": "@jeniex/inspect",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "example:start": "pnpm --dir example start",
+    "example:start-inspect": "pnpm --dir example start-inspect",
+    "example:start-inspect-alt": "pnpm --dir example start-inspect-alt",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "paint-console": "^0.0.1",
+    "prettier": "^3.10.1",
+    "prettier-plugin-jsdoc": "^1.8.1",
+    "prettier-plugin-pkg": "^0.22.1",
+    "tsdown": "^0.23.7",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
