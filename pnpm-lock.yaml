@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      paint-console:
-        specifier: ^0.0.1
-        version: 0.0.1
+      '@jeniex/paint-console':
+        specifier: ^0.0.4
+        version: 0.0.4
     devDependencies:
       '@types/node':
         specifier: ^26.6.6
@@ -206,6 +206,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@jeniex/paint-console@0.0.4':
+    resolution: {integrity: sha512-z6Amcmzt7cuvBW0dVYF+Gsdi9lOovGfcv3FBDKoGDxo1p4rxDNBUSMy6GFpO+WMHQKEhStidt8N3exgv58qtIQ==}
 
   '@napi-rs/wasm-runtime@1.2.6':
     resolution: {integrity: sha512-mRyDmEw9/fCDXCGfL1sbgIw/GUK0PVxRW4YwgPN61F3LQ+fSyoBFarJVzgGyhF6kRzEQZ0FejDqm4WLXSeqQmw==}
@@ -524,9 +527,6 @@ packages:
     resolution: {integrity: sha512-5vvB5+W7ePv+p3uqxi+RcW1XAzLW0/hxt3/4X4Lc4qHudzOhmBiBwOY6DRob4WnanAEGvNcLjF+KNOufrUoEQw==}
     engines: {node: '>=12.20.0'}
 
-  paint-console@0.0.1:
-    resolution: {integrity: sha512-ncOUh5Lu8t9QOxU+CpP/MWTzXCtxOj2b5aDWOJobATmCgK1OJY6bQ0vGiIyC19QMnDrPvZFVEFMM46XxVBeCmg==}
-
   picomatch@4.0.7:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
@@ -756,6 +756,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.28.2':
     optional: true
+
+  '@jeniex/paint-console@0.0.4': {}
 
   '@napi-rs/wasm-runtime@1.2.6(@emnapi/core@2.0.0-beta.2)(@emnapi/runtime@2.0.0-beta.2)':
     dependencies:
@@ -1098,8 +1100,6 @@ snapshots:
   ms@2.1.3: {}
 
   obug@3.0.0: {}
-
-  paint-console@0.0.1: {}
 
   picomatch@4.0.7: {}
 

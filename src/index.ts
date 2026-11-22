@@ -11,6 +11,5 @@ if (hasInspectOption || hasInspectFlag) {
 } else {
   global.console.debug = () => {};
 
-  // @ts-ignore
-  await import('paint-console');
+  await import('@jeniex/paint-console');
 }
