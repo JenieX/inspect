@@ -1,7 +1,7 @@
 {
   "$schema": "file:///D:/projects/json-schemas/package.json",
   "name": "@jeniex/inspect",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "exports": {
     ".": {
@@ -20,9 +20,11 @@
     "example:start-inspect-alt": "pnpm --dir example start-inspect-alt",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "paint-console": "^0.0.1"
+  },
   "devDependencies": {
     "@types/node": "^26.6.6",
-    "paint-console": "^0.0.1",
     "prettier": "^3.10.1",
     "prettier-plugin-jsdoc": "^1.8.1",
     "prettier-plugin-pkg": "^0.22.1",
